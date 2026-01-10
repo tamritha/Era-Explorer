@@ -1,3 +1,5 @@
+// clang EraExplorer_C.c -o bin/EraExplorer_C
+// ./bin/EraExplorer_C
 #include<stdio.h>
 #include<string.h>
 int main () 

@@ -721,15 +721,16 @@ class EraExplorer_Java implements Egypt_Civilization, Aztec_Civilization {
             // } while (choice.equals("y") || choice.equals("1"));
         System.out.println("Do you wish to play ERA EXPLORER again? (y/n)");
         while (true) {
-        choice = sc.nextLine();
-        if (choice.isEmpty()) {
-            continue;
-        }
-        else if (choice.equalsIgnoreCase("y")) main(args);//Project.main(args);
-        else {
-            System.out.println("Thank you for playing ERA EXPLORER.");
-            break;
-        }
+            choice = sc.nextLine();
+            if (choice.isEmpty()) {
+                continue;
+            }
+            else if (choice.equalsIgnoreCase("y")) main(args);//Project.main(args);
+            else if (choice.equalsIgnoreCase("n")) {
+                System.out.println("Thank you for playing ERA EXPLORER.");
+                break;
+            }
+            else continue;
         }
         // sc.close(); //error if i put this
     }

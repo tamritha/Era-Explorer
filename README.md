@@ -10,7 +10,7 @@ This project was built to demonstrate how software evolves across different para
 * **Complexity:** Advanced.
 * **Key Features:** * **Massive Content:** Features **30 unique puzzles** across 6 distinct categories (vs. only 6 in C/Python).
     * **Dynamic Gameplay:** Implements **Randomization** algorithms so the puzzles change every time you play.
-    * **Architecture:** Engineered using strict **OOP principles**, **Interfaces**, and **Multithreading** for smooth execution.
+    * **Architecture:** Engineered using strict **OOP principles** and **Interfaces** for smooth execution.
     * **UX:** Enhanced user interaction with robust handling of edge cases.
 
 ### 🥈 Python Implementation (The "Smart" Prototype)
